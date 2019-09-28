@@ -1,10 +1,10 @@
-import AbstractDuck from "./Duck/AbstractDuck";
-import MallardDuck from "./Duck/MallardDuck";
-import ModelDuck from "./Duck/ModelDuck";
-import FlyWithRocket from "./Duck/Fly/FlyWithRocket";
-import DuckDecoy from "./DuckDecoy";
-import MuteQuack from "./Duck/Quack/MuteQuack";
-import Squeak from "./Duck/Quack/Squeak";
+import AbstractDuck from "./core/Duck/AbstractDuck";
+import MallardDuck from "./core/Duck/MallardDuck";
+import ModelDuck from "./core/Duck/ModelDuck";
+import FlyWithRocket from "./core/Duck/Fly/FlyWithRocket";
+import DuckDecoy from "./core/DuckDecoy";
+import MuteQuack from "./core/Duck/Quack/MuteQuack";
+import Squeak from "./core/Duck/Quack/Squeak";
 
 let mallard: AbstractDuck = new MallardDuck();
 mallard.performQuack();
