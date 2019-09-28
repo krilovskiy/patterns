@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "typings",
+    "declarationMap": true, // Typescript 2.9
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true, // Decorators support
+    "experimentalDecorators": true, // Decorators support
+    "esModuleInterop": true, // Typescript 2.7
+    //"inlineSourceMap": true,
+    "inlineSources": true,
+    "lib": ["es5", "es6", "es2015", "es7", "es2016", "es2017", "es2018"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "paths": {
+      "*": [
+        "src/types/*"
+      ]
+    },
+    "sourceMap": true,
+    "target": "es6",
+    "types": ["node"],
+    "resolveJsonModule": true // Typescript 2.9
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
